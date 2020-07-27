@@ -1,0 +1,46 @@
+ion-content {
+    --background: #f5faff;
+    --padding-bottom: 15px;
+    --padding-end: 15px;
+    --padding-start: 15px;
+    --padding-top: 15px;
+}
+
+ion-toolbar {
+    --background: var(--ion-color-mango);
+}
+
+.small {
+    font-size: small;
+}
+
+ion-card {
+    margin: 10px;
+}
+
+.icon {
+    width: 70px;
+    margin: 10px;
+}
+
+h1, p {
+    text-transform: capitalize;
+}
+
+h2 {
+    color: orangered;
+}
+
+ion-item {
+    --background: #f5faff;
+}
+
+.more {
+    color: gray;
+    cursor: pointer;
+}
+
+.logout {
+    cursor: pointer;
+}
+

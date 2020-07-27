@@ -1,0 +1,32 @@
+<ion-content>
+  <div class="logo-container">
+    <img src="assets/images/logo.svg" class="logo" />
+  </div>  
+  <h1>Sign Up</h1>
+  <form>
+    <ion-list>
+      <ion-item>
+        <ion-label position="stacked">Name</ion-label>
+        <ion-input autocomplete="off" name="name" type="text"
+          [(ngModel)]="payload.name"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Email</ion-label>
+        <ion-input autocomplete="off" name="email" type="email"
+          [(ngModel)]="payload.email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Password</ion-label>
+        <ion-input autocomplete="off" name="password" type="password"
+          [(ngModel)]="payload.password"></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-button expand="block" share="round" color="mango"
+      (click)="signUp()">Sign Up</ion-button>
+    <ion-item lines='none' class="ion-text-center">
+      <ion-label class="link-label">
+        Already have an account? <a routerLink='/login'>Log In</a>
+      </ion-label>
+    </ion-item>
+  </form>
+</ion-content>

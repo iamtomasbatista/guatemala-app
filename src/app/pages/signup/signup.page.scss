@@ -1,0 +1,41 @@
+ion-content {
+    --background: #f5faff;
+    --padding-bottom: 20px;
+    --padding-end: 20px;
+    --padding-start: 20px;
+    --padding-top: 20px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+.logo-container {    
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+}
+
+.logo {
+    width: 150px;
+}
+
+ion-list {
+    background: #f5faff;
+}
+
+ion-item {
+    --background: #f5faff;
+}
+
+ion-button {
+    margin: 20px 10px 10px 10px;
+}
+
+.link-label {
+    font-size: smaller !important;
+}
+
+a {
+    text-decoration: none;
+}

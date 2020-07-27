@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title slot="start">Promotions</ion-title>
+    <ion-title class="small logout" slot="end" (click)="logout()">Log Out</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let promo of promotions; let i = index; trackBy: trackByFn">
+      <ion-card-content>
+        <ion-row>
+          <ion-col>
+            <img src="assets/images/promotion.svg" class="icon" />
+          </ion-col>
+          <ion-col>
+            <h1>{{ promo.title }}</h1>
+            <h2>{{ promo.price }}$</h2>
+            <p>{{ promo.address }}</p>
+            <p>lat: {{ promo.latitude }}</p>
+            <p>long: {{ promo.longitude }}</p>
+          </ion-col>
+        </ion-row>
+      </ion-card-content>
+  </ion-card>
+  <ion-item lines='none' class="ion-text-center">
+    <ion-label class="more small" *ngIf="nextUrl" (click)="loadMore()">
+       More...
+    </ion-label>
+  </ion-item>
+</ion-content>

@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "guatemala-app2",
+  "appName": "guatemala-app",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
