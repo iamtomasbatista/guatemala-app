@@ -16,7 +16,7 @@ Permite autenticacion OAUTH2.0 y ver un listado de promociones.
 npm install
 ```
 
-- **IMPORTANTE** Valida que ya este **guatemala-api** corriendo en tu ambiente local 
+- **IMPORTANTE** Valida que ya este [guatemala-api](https://github.com/iamtomasbatista/guatemala-api) corriendo en tu ambiente local 
 
 - Levanta un servidor local
 
