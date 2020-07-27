@@ -1,0 +1,7 @@
+{
+  "name": "guatemala-app2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
